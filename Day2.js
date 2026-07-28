@@ -43,10 +43,11 @@
 
 
 
-function helloFSD(callback) {
-    console.log("Hello FSD");
-    callback();
-}
-helloFSD(() => {
-    console.log("Welcome to FSD");
-});
+// function helloFSD(callback) {
+//     console.log("Hello FSD");
+//     callback();
+// }
+// helloFSD(() => {
+//     console.log("Welcome to FSD");
+// });
+
