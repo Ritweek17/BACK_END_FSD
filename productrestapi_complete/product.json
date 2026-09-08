@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "price": 55000,
+    "category": "Electronics",
+    "stock": 20
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "price": 25000,
+    "category": "Electronics",
+    "stock": 35
+  },
+  {
+    "id": 3,
+    "name": "Tablet",
+    "price": 18000,
+    "category": "Electronics",
+    "stock": 25
+  },
+  {
+    "id": 4,
+    "name": "Monitor",
+    "price": 12000,
+    "category": "Electronics",
+    "stock": 18
+  },
+  {
+    "id": 5,
+    "name": "Keyboard",
+    "price": 1500,
+    "category": "Electronics",
+    "stock": 40
+  },
+  {
+    "id": 6,
+    "name": "Mouse",
+    "price": 800,
+    "category": "Electronics",
+    "stock": 60
+  },
+  {
+    "id": 7,
+    "name": "Headphones",
+    "price": 2500,
+    "category": "Electronics",
+    "stock": 50
+  },
+  {
+    "id": 8,
+    "name": "Smart Watch",
+    "price": 3999,
+    "category": "Wearables",
+    "stock": 30
+  },
+  {
+    "id": 9,
+    "name": "Bluetooth Speaker",
+    "price": 2200,
+    "category": "Electronics",
+    "stock": 45
+  },
+  {
+    "id": 10,
+    "name": "Power Bank",
+    "price": 1800,
+    "category": "Electronics",
+    "stock": 55
+  },
+  {
+    "id": 11,
+    "name": "USB Cable",
+    "price": 399,
+    "category": "Accessories",
+    "stock": 100
+  },
+  {
+    "id": 12,
+    "name": "Webcam",
+    "price": 3200,
+    "category": "Electronics",
+    "stock": 22
+  },
+  {
+    "id": 13,
+    "name": "Printer",
+    "price": 9500,
+    "category": "Electronics",
+    "stock": 15
+  },
+  {
+    "id": 14,
+    "name": "Router",
+    "price": 2800,
+    "category": "Networking",
+    "stock": 28
+  },
+  {
+    "id": 15,
+    "name": "SSD 512GB",
+    "price": 4200,
+    "category": "Computer Parts",
+    "stock": 32
+  },
+  {
+    "id": 16,
+    "name": "HDD 1TB",
+    "price": 4800,
+    "category": "Computer Parts",
+    "stock": 27
+  },
+  {
+    "id": 17,
+    "name": "RAM 8GB",
+    "price": 2100,
+    "category": "Computer Parts",
+    "stock": 38
+  },
+  {
+    "id": 18,
+    "name": "Graphics Card",
+    "price": 32000,
+    "category": "Computer Parts",
+    "stock": 10
+  },
+  {
+    "id": 19,
+    "name": "Cooling Fan",
+    "price": 1200,
+    "category": "Computer Parts",
+    "stock": 42
+  },
+  {
+    "id": 20,
+    "name": "Laptop Stand",
+    "price": 1100,
+    "category": "Accessories",
+    "stock": 35
+  },
+  {
+    "id": 21,
+    "name": "Backpack",
+    "price": 1800,
+    "category": "Bags",
+    "stock": 45
+  },
+  {
+    "id": 22,
+    "name": "Travel Bag",
+    "price": 2400,
+    "category": "Bags",
+    "stock": 32
+  },
+  {
+    "id": 23,
+    "name": "Wallet",
+    "price": 900,
+    "category": "Fashion",
+    "stock": 70
+  },
+  {
+    "id": 24,
+    "name": "Sunglasses",
+    "price": 1400,
+    "category": "Fashion",
+    "stock": 50
+  },
+  {
+    "id": 25,
+    "name": "T-Shirt",
+    "price": 699,
+    "category": "Clothing",
+    "stock": 80
+  },
+  {
+    "id": 26,
+    "name": "Hoodie",
+    "price": 1499,
+    "category": "Clothing",
+    "stock": 55
+  },
+  {
+    "id": 27,
+    "name": "Jeans",
+    "price": 1999,
+    "category": "Clothing",
+    "stock": 40
+  },
+  {
+    "id": 28,
+    "name": "Jacket",
+    "price": 2999,
+    "category": "Clothing",
+    "stock": 30
+  },
+  {
+    "id": 29,
+    "name": "Sneakers",
+    "price": 3499,
+    "category": "Footwear",
+    "stock": 35
+  },
+  {
+    "id": 30,
+    "name": "Running Shoes",
+    "price": 2899,
+    "category": "Footwear",
+    "stock": 42
+  },
+  {
+    "id": 31,
+    "name": "Formal Shoes",
+    "price": 2599,
+    "category": "Footwear",
+    "stock": 28
+  },
+  {
+    "id": 32,
+    "name": "Slippers",
+    "price": 599,
+    "category": "Footwear",
+    "stock": 75
+  },
+  {
+    "id": 33,
+    "name": "Cap",
+    "price": 499,
+    "category": "Fashion",
+    "stock": 65
+  },
+  {
+    "id": 34,
+    "name": "Belt",
+    "price": 799,
+    "category": "Fashion",
+    "stock": 58
+  },
+  {
+    "id": 35,
+    "name": "Watch",
+    "price": 2499,
+    "category": "Fashion",
+    "stock": 30
+  },
+  {
+    "id": 36,
+    "name": "Desk Lamp",
+    "price": 999,
+    "category": "Home",
+    "stock": 45
+  },
+  {
+    "id": 37,
+    "name": "Table Lamp",
+    "price": 1299,
+    "category": "Home",
+    "stock": 38
+  },
+  {
+    "id": 38,
+    "name": "Wall Clock",
+    "price": 799,
+    "category": "Home",
+    "stock": 50
+  },
+  {
+    "id": 39,
+    "name": "Water Bottle",
+    "price": 699,
+    "category": "Kitchen",
+    "stock": 90
+  },
+  {
+    "id": 40,
+    "name": "Coffee Mug",
+    "price": 299,
+    "category": "Kitchen",
+    "stock": 100
+  },
+  {
+    "id": 41,
+    "name": "Dinner Set",
+    "price": 1899,
+    "category": "Kitchen",
+    "stock": 25
+  },
+  {
+    "id": 42,
+    "name": "Frying Pan",
+    "price": 1299,
+    "category": "Kitchen",
+    "stock": 35
+  },
+  {
+    "id": 43,
+    "name": "Pressure Cooker",
+    "price": 2499,
+    "category": "Kitchen",
+    "stock": 22
+  },
+  {
+    "id": 44,
+    "name": "Electric Kettle",
+    "price": 1699,
+    "category": "Kitchen",
+    "stock": 30
+  },
+  {
+    "id": 45,
+    "name": "Toaster",
+    "price": 1999,
+    "category": "Kitchen",
+    "stock": 24
+  },
+  {
+    "id": 46,
+    "name": "Mixer Grinder",
+    "price": 3499,
+    "category": "Kitchen",
+    "stock": 20
+  },
+  {
+    "id": 47,
+    "name": "Air Fryer",
+    "price": 4999,
+    "category": "Kitchen",
+    "stock": 16
+  },
+  {
+    "id": 48,
+    "name": "Lunch Box",
+    "price": 599,
+    "category": "Kitchen",
+    "stock": 70
+  },
+  {
+    "id": 49,
+    "name": "Cutlery Set",
+    "price": 899,
+    "category": "Kitchen",
+    "stock": 45
+  },
+  {
+    "id": 50,
+    "name": "Notebook",
+    "price": 199,
+    "category": "Stationery",
+    "stock": 120
+  },
+  {
+    "id": 51,
+    "name": "Diary",
+    "price": 349,
+    "category": "Stationery",
+    "stock": 90
+  },
+  {
+    "id": 52,
+    "name": "Ball Pen Pack",
+    "price": 149,
+    "category": "Stationery",
+    "stock": 150
+  },
+  {
+    "id": 53,
+    "name": "Gel Pen Pack",
+    "price": 179,
+    "category": "Stationery",
+    "stock": 140
+  },
+  {
+    "id": 54,
+    "name": "Marker Set",
+    "price": 249,
+    "category": "Stationery",
+    "stock": 110
+  },
+  {
+    "id": 55,
+    "name": "Highlighter Set",
+    "price": 229,
+    "category": "Stationery",
+    "stock": 100
+  },
+  {
+    "id": 56,
+    "name": "Pencil Box",
+    "price": 299,
+    "category": "Stationery",
+    "stock": 85
+  },
+  {
+    "id": 57,
+    "name": "Calculator",
+    "price": 499,
+    "category": "Stationery",
+    "stock": 60
+  },
+  {
+    "id": 58,
+    "name": "Backpack School",
+    "price": 1199,
+    "category": "Bags",
+    "stock": 50
+  },
+  {
+    "id": 59,
+    "name": "Desk Organizer",
+    "price": 449,
+    "category": "Stationery",
+    "stock": 65
+  },
+  {
+    "id": 60,
+    "name": "LED Strip",
+    "price": 999,
+    "category": "Home",
+    "stock": 55
+  },
+  {
+    "id": 61,
+    "name": "Extension Board",
+    "price": 799,
+    "category": "Electronics",
+    "stock": 48
+  },
+  {
+    "id": 62,
+    "name": "Mobile Charger",
+    "price": 899,
+    "category": "Accessories",
+    "stock": 72
+  },
+  {
+    "id": 63,
+    "name": "Wireless Charger",
+    "price": 1499,
+    "category": "Accessories",
+    "stock": 40
+  },
+  {
+    "id": 64,
+    "name": "Phone Cover",
+    "price": 299,
+    "category": "Accessories",
+    "stock": 120
+  },
+  {
+    "id": 65,
+    "name": "Screen Protector",
+    "price": 199,
+    "category": "Accessories",
+    "stock": 130
+  },
+  {
+    "id": 66,
+    "name": "Earbuds Case",
+    "price": 249,
+    "category": "Accessories",
+    "stock": 95
+  },
+  {
+    "id": 67,
+    "name": "Gaming Mouse",
+    "price": 1799,
+    "category": "Gaming",
+    "stock": 35
+  },
+  {
+    "id": 68,
+    "name": "Gaming Keyboard",
+    "price": 2999,
+    "category": "Gaming",
+    "stock": 25
+  },
+  {
+    "id": 69,
+    "name": "Gaming Headset",
+    "price": 3499,
+    "category": "Gaming",
+    "stock": 28
+  },
+  {
+    "id": 70,
+    "name": "Game Controller",
+    "price": 2899,
+    "category": "Gaming",
+    "stock": 22
+  },
+  {
+    "id": 71,
+    "name": "Yoga Mat",
+    "price": 899,
+    "category": "Fitness",
+    "stock": 60
+  },
+  {
+    "id": 72,
+    "name": "Dumbbells",
+    "price": 1999,
+    "category": "Fitness",
+    "stock": 35
+  },
+  {
+    "id": 73,
+    "name": "Skipping Rope",
+    "price": 399,
+    "category": "Fitness",
+    "stock": 85
+  },
+  {
+    "id": 74,
+    "name": "Resistance Bands",
+    "price": 699,
+    "category": "Fitness",
+    "stock": 70
+  },
+  {
+    "id": 75,
+    "name": "Fitness Bottle",
+    "price": 599,
+    "category": "Fitness",
+    "stock": 75
+  },
+  {
+    "id": 76,
+    "name": "Football",
+    "price": 999,
+    "category": "Sports",
+    "stock": 40
+  },
+  {
+    "id": 77,
+    "name": "Cricket Bat",
+    "price": 2499,
+    "category": "Sports",
+    "stock": 25
+  },
+  {
+    "id": 78,
+    "name": "Cricket Ball",
+    "price": 399,
+    "category": "Sports",
+    "stock": 60
+  },
+  {
+    "id": 79,
+    "name": "Badminton Racket",
+    "price": 1599,
+    "category": "Sports",
+    "stock": 32
+  },
+  {
+    "id": 80,
+    "name": "Tennis Ball Pack",
+    "price": 499,
+    "category": "Sports",
+    "stock": 50
+  },
+  {
+    "id": 81,
+    "name": "Volleyball",
+    "price": 899,
+    "category": "Sports",
+    "stock": 36
+  },
+  {
+    "id": 82,
+    "name": "Table Tennis Bat",
+    "price": 799,
+    "category": "Sports",
+    "stock": 42
+  },
+  {
+    "id": 83,
+    "name": "Carrom Board",
+    "price": 2999,
+    "category": "Sports",
+    "stock": 18
+  },
+  {
+    "id": 84,
+    "name": "Board Game",
+    "price": 1199,
+    "category": "Toys",
+    "stock": 30
+  },
+  {
+    "id": 85,
+    "name": "Puzzle Game",
+    "price": 699,
+    "category": "Toys",
+    "stock": 45
+  },
+  {
+    "id": 86,
+    "name": "Remote Car",
+    "price": 1599,
+    "category": "Toys",
+    "stock": 28
+  },
+  {
+    "id": 87,
+    "name": "Building Blocks",
+    "price": 999,
+    "category": "Toys",
+    "stock": 50
+  },
+  {
+    "id": 88,
+    "name": "Teddy Bear",
+    "price": 799,
+    "category": "Toys",
+    "stock": 55
+  },
+  {
+    "id": 89,
+    "name": "Action Figure",
+    "price": 1299,
+    "category": "Toys",
+    "stock": 35
+  },
+  {
+    "id": 90,
+    "name": "Makeup Kit",
+    "price": 1899,
+    "category": "Beauty",
+    "stock": 30
+  },
+  {
+    "id": 91,
+    "name": "Face Wash",
+    "price": 349,
+    "category": "Beauty",
+    "stock": 80
+  },
+  {
+    "id": 92,
+    "name": "Moisturizer",
+    "price": 499,
+    "category": "Beauty",
+    "stock": 70
+  },
+  {
+    "id": 93,
+    "name": "Shampoo",
+    "price": 449,
+    "category": "Beauty",
+    "stock": 75
+  },
+  {
+    "id": 94,
+    "name": "Hair Dryer",
+    "price": 1799,
+    "category": "Beauty",
+    "stock": 25
+  },
+  {
+    "id": 95,
+    "name": "Perfume",
+    "price": 2199,
+    "category": "Beauty",
+    "stock": 40
+  },
+  {
+    "id": 96,
+    "name": "Hand Wash",
+    "price": 199,
+    "category": "Beauty",
+    "stock": 100
+  },
+  {
+    "id": 97,
+    "name": "Sunscreen",
+    "price": 599,
+    "category": "Beauty",
+    "stock": 65
+  },
+  {
+    "id": 98,
+    "name": "Electric Toothbrush",
+    "price": 2499,
+    "category": "Personal Care",
+    "stock": 22
+  },
+  {
+    "id": 99,
+    "name": "Trimmer",
+    "price": 1699,
+    "category": "Personal Care",
+    "stock": 30
+  },
+  {
+    "id": 100,
+    "name": "Cotton Towels",
+    "price": 699,
+    "category": "Home",
+    "stock": 45
+  }
+]

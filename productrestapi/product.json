@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop 1",
+    "price": 436,
+    "category": "Electronics",
+    "stock": 12
+  },
+  {
+    "id": 2,
+    "name": "Laptop 2",
+    "price": 573,
+    "category": "Electronics",
+    "stock": 19
+  },
+  {
+    "id": 3,
+    "name": "Smartphone 1",
+    "price": 710,
+    "category": "Electronics",
+    "stock": 26
+  },
+  {
+    "id": 4,
+    "name": "Smartphone 2",
+    "price": 847,
+    "category": "Electronics",
+    "stock": 33
+  },
+  {
+    "id": 5,
+    "name": "Tablet 1",
+    "price": 984,
+    "category": "Electronics",
+    "stock": 40
+  },
+  {
+    "id": 6,
+    "name": "Tablet 2",
+    "price": 1121,
+    "category": "Electronics",
+    "stock": 47
+  },
+  {
+    "id": 7,
+    "name": "Monitor 1",
+    "price": 1258,
+    "category": "Electronics",
+    "stock": 54
+  },
+  {
+    "id": 8,
+    "name": "Monitor 2",
+    "price": 1395,
+    "category": "Electronics",
+    "stock": 61
+  },
+  {
+    "id": 9,
+    "name": "Keyboard 1",
+    "price": 1532,
+    "category": "Electronics",
+    "stock": 68
+  },
+  {
+    "id": 10,
+    "name": "Keyboard 2",
+    "price": 1669,
+    "category": "Electronics",
+    "stock": 75
+  },
+  {
+    "id": 11,
+    "name": "Mouse 1",
+    "price": 1806,
+    "category": "Electronics",
+    "stock": 82
+  },
+  {
+    "id": 12,
+    "name": "Mouse 2",
+    "price": 1943,
+    "category": "Electronics",
+    "stock": 89
+  },
+  {
+    "id": 13,
+    "name": "Webcam 1",
+    "price": 2080,
+    "category": "Electronics",
+    "stock": 96
+  },
+  {
+    "id": 14,
+    "name": "Webcam 2",
+    "price": 2217,
+    "category": "Electronics",
+    "stock": 7
+  },
+  {
+    "id": 15,
+    "name": "Headphones 1",
+    "price": 2354,
+    "category": "Electronics",
+    "stock": 14
+  },
+  {
+    "id": 16,
+    "name": "Headphones 2",
+    "price": 2491,
+    "category": "Electronics",
+    "stock": 21
+  },
+  {
+    "id": 17,
+    "name": "Speaker 1",
+    "price": 2628,
+    "category": "Electronics",
+    "stock": 28
+  },
+  {
+    "id": 18,
+    "name": "Speaker 2",
+    "price": 2765,
+    "category": "Electronics",
+    "stock": 35
+  },
+  {
+    "id": 19,
+    "name": "Power Bank 1",
+    "price": 2902,
+    "category": "Electronics",
+    "stock": 42
+  },
+  {
+    "id": 20,
+    "name": "Power Bank 2",
+    "price": 3039,
+    "category": "Electronics",
+    "stock": 49
+  },
+  {
+    "id": 21,
+    "name": "Table Lamp 1",
+    "price": 3176,
+    "category": "Home",
+    "stock": 56
+  },
+  {
+    "id": 22,
+    "name": "Table Lamp 2",
+    "price": 3313,
+    "category": "Home",
+    "stock": 63
+  },
+  {
+    "id": 23,
+    "name": "Desk Organizer 1",
+    "price": 3450,
+    "category": "Home",
+    "stock": 70
+  },
+  {
+    "id": 24,
+    "name": "Desk Organizer 2",
+    "price": 3587,
+    "category": "Home",
+    "stock": 77
+  },
+  {
+    "id": 25,
+    "name": "Water Bottle 1",
+    "price": 3724,
+    "category": "Home",
+    "stock": 84
+  },
+  {
+    "id": 26,
+    "name": "Water Bottle 2",
+    "price": 3861,
+    "category": "Home",
+    "stock": 91
+  },
+  {
+    "id": 27,
+    "name": "Coffee Maker 1",
+    "price": 3998,
+    "category": "Home",
+    "stock": 98
+  },
+  {
+    "id": 28,
+    "name": "Coffee Maker 2",
+    "price": 4135,
+    "category": "Home",
+    "stock": 9
+  },
+  {
+    "id": 29,
+    "name": "Air Purifier 1",
+    "price": 4272,
+    "category": "Home",
+    "stock": 16
+  },
+  {
+    "id": 30,
+    "name": "Air Purifier 2",
+    "price": 4409,
+    "category": "Home",
+    "stock": 23
+  },
+  {
+    "id": 31,
+    "name": "Extension Board 1",
+    "price": 4546,
+    "category": "Home",
+    "stock": 30
+  },
+  {
+    "id": 32,
+    "name": "Extension Board 2",
+    "price": 4683,
+    "category": "Home",
+    "stock": 37
+  },
+  {
+    "id": 33,
+    "name": "Storage Box 1",
+    "price": 4820,
+    "category": "Home",
+    "stock": 44
+  },
+  {
+    "id": 34,
+    "name": "Storage Box 2",
+    "price": 4957,
+    "category": "Home",
+    "stock": 51
+  },
+  {
+    "id": 35,
+    "name": "Wall Clock 1",
+    "price": 5094,
+    "category": "Home",
+    "stock": 58
+  },
+  {
+    "id": 36,
+    "name": "Wall Clock 2",
+    "price": 5231,
+    "category": "Home",
+    "stock": 65
+  },
+  {
+    "id": 37,
+    "name": "Iron 1",
+    "price": 5368,
+    "category": "Home",
+    "stock": 72
+  },
+  {
+    "id": 38,
+    "name": "Iron 2",
+    "price": 5505,
+    "category": "Home",
+    "stock": 79
+  },
+  {
+    "id": 39,
+    "name": "Vacuum Cleaner 1",
+    "price": 5642,
+    "category": "Home",
+    "stock": 86
+  },
+  {
+    "id": 40,
+    "name": "Vacuum Cleaner 2",
+    "price": 5779,
+    "category": "Home",
+    "stock": 93
+  },
+  {
+    "id": 41,
+    "name": "T-Shirt 1",
+    "price": 5916,
+    "category": "Fashion",
+    "stock": 100
+  },
+  {
+    "id": 42,
+    "name": "T-Shirt 2",
+    "price": 6053,
+    "category": "Fashion",
+    "stock": 11
+  },
+  {
+    "id": 43,
+    "name": "Jeans 1",
+    "price": 6190,
+    "category": "Fashion",
+    "stock": 18
+  },
+  {
+    "id": 44,
+    "name": "Jeans 2",
+    "price": 6327,
+    "category": "Fashion",
+    "stock": 25
+  },
+  {
+    "id": 45,
+    "name": "Hoodie 1",
+    "price": 6464,
+    "category": "Fashion",
+    "stock": 32
+  },
+  {
+    "id": 46,
+    "name": "Hoodie 2",
+    "price": 6601,
+    "category": "Fashion",
+    "stock": 39
+  },
+  {
+    "id": 47,
+    "name": "Sneakers 1",
+    "price": 6738,
+    "category": "Fashion",
+    "stock": 46
+  },
+  {
+    "id": 48,
+    "name": "Sneakers 2",
+    "price": 6875,
+    "category": "Fashion",
+    "stock": 53
+  },
+  {
+    "id": 49,
+    "name": "Jacket 1",
+    "price": 7012,
+    "category": "Fashion",
+    "stock": 60
+  },
+  {
+    "id": 50,
+    "name": "Jacket 2",
+    "price": 7149,
+    "category": "Fashion",
+    "stock": 67
+  },
+  {
+    "id": 51,
+    "name": "Backpack 1",
+    "price": 7286,
+    "category": "Fashion",
+    "stock": 74
+  },
+  {
+    "id": 52,
+    "name": "Backpack 2",
+    "price": 7423,
+    "category": "Fashion",
+    "stock": 81
+  },
+  {
+    "id": 53,
+    "name": "Cap 1",
+    "price": 7560,
+    "category": "Fashion",
+    "stock": 88
+  },
+  {
+    "id": 54,
+    "name": "Cap 2",
+    "price": 7697,
+    "category": "Fashion",
+    "stock": 95
+  },
+  {
+    "id": 55,
+    "name": "Watch 1",
+    "price": 7834,
+    "category": "Fashion",
+    "stock": 6
+  },
+  {
+    "id": 56,
+    "name": "Watch 2",
+    "price": 7971,
+    "category": "Fashion",
+    "stock": 13
+  },
+  {
+    "id": 57,
+    "name": "Wallet 1",
+    "price": 8108,
+    "category": "Fashion",
+    "stock": 20
+  },
+  {
+    "id": 58,
+    "name": "Wallet 2",
+    "price": 8245,
+    "category": "Fashion",
+    "stock": 27
+  },
+  {
+    "id": 59,
+    "name": "Sunglasses 1",
+    "price": 8382,
+    "category": "Fashion",
+    "stock": 34
+  },
+  {
+    "id": 60,
+    "name": "Sunglasses 2",
+    "price": 8519,
+    "category": "Fashion",
+    "stock": 41
+  },
+  {
+    "id": 61,
+    "name": "Notebook 1",
+    "price": 8656,
+    "category": "Books",
+    "stock": 48
+  },
+  {
+    "id": 62,
+    "name": "Notebook 2",
+    "price": 8793,
+    "category": "Books",
+    "stock": 55
+  },
+  {
+    "id": 63,
+    "name": "Programming Book 1",
+    "price": 8930,
+    "category": "Books",
+    "stock": 62
+  },
+  {
+    "id": 64,
+    "name": "Programming Book 2",
+    "price": 9067,
+    "category": "Books",
+    "stock": 69
+  },
+  {
+    "id": 65,
+    "name": "Novel 1",
+    "price": 9204,
+    "category": "Books",
+    "stock": 76
+  },
+  {
+    "id": 66,
+    "name": "Novel 2",
+    "price": 9341,
+    "category": "Books",
+    "stock": 83
+  },
+  {
+    "id": 67,
+    "name": "Dictionary 1",
+    "price": 9478,
+    "category": "Books",
+    "stock": 90
+  },
+  {
+    "id": 68,
+    "name": "Dictionary 2",
+    "price": 9615,
+    "category": "Books",
+    "stock": 97
+  },
+  {
+    "id": 69,
+    "name": "Sketchbook 1",
+    "price": 9752,
+    "category": "Books",
+    "stock": 8
+  },
+  {
+    "id": 70,
+    "name": "Sketchbook 2",
+    "price": 9889,
+    "category": "Books",
+    "stock": 15
+  },
+  {
+    "id": 71,
+    "name": "Cookbook 1",
+    "price": 10026,
+    "category": "Books",
+    "stock": 22
+  },
+  {
+    "id": 72,
+    "name": "Cookbook 2",
+    "price": 10163,
+    "category": "Books",
+    "stock": 29
+  },
+  {
+    "id": 73,
+    "name": "Planner 1",
+    "price": 10300,
+    "category": "Books",
+    "stock": 36
+  },
+  {
+    "id": 74,
+    "name": "Planner 2",
+    "price": 10437,
+    "category": "Books",
+    "stock": 43
+  },
+  {
+    "id": 75,
+    "name": "Biography 1",
+    "price": 10574,
+    "category": "Books",
+    "stock": 50
+  },
+  {
+    "id": 76,
+    "name": "Biography 2",
+    "price": 10711,
+    "category": "Books",
+    "stock": 57
+  },
+  {
+    "id": 77,
+    "name": "Comics 1",
+    "price": 10848,
+    "category": "Books",
+    "stock": 64
+  },
+  {
+    "id": 78,
+    "name": "Comics 2",
+    "price": 10985,
+    "category": "Books",
+    "stock": 71
+  },
+  {
+    "id": 79,
+    "name": "Study Guide 1",
+    "price": 11122,
+    "category": "Books",
+    "stock": 78
+  },
+  {
+    "id": 80,
+    "name": "Study Guide 2",
+    "price": 11259,
+    "category": "Books",
+    "stock": 85
+  },
+  {
+    "id": 81,
+    "name": "Cricket Bat 1",
+    "price": 11396,
+    "category": "Sports",
+    "stock": 92
+  },
+  {
+    "id": 82,
+    "name": "Cricket Bat 2",
+    "price": 11533,
+    "category": "Sports",
+    "stock": 99
+  },
+  {
+    "id": 83,
+    "name": "Football 1",
+    "price": 11670,
+    "category": "Sports",
+    "stock": 10
+  },
+  {
+    "id": 84,
+    "name": "Football 2",
+    "price": 11807,
+    "category": "Sports",
+    "stock": 17
+  },
+  {
+    "id": 85,
+    "name": "Badminton Racket 1",
+    "price": 11944,
+    "category": "Sports",
+    "stock": 24
+  },
+  {
+    "id": 86,
+    "name": "Badminton Racket 2",
+    "price": 12081,
+    "category": "Sports",
+    "stock": 31
+  },
+  {
+    "id": 87,
+    "name": "Yoga Mat 1",
+    "price": 12218,
+    "category": "Sports",
+    "stock": 38
+  },
+  {
+    "id": 88,
+    "name": "Yoga Mat 2",
+    "price": 12355,
+    "category": "Sports",
+    "stock": 45
+  },
+  {
+    "id": 89,
+    "name": "Skipping Rope 1",
+    "price": 12492,
+    "category": "Sports",
+    "stock": 52
+  },
+  {
+    "id": 90,
+    "name": "Skipping Rope 2",
+    "price": 12629,
+    "category": "Sports",
+    "stock": 59
+  },
+  {
+    "id": 91,
+    "name": "Tennis Ball 1",
+    "price": 12766,
+    "category": "Sports",
+    "stock": 66
+  },
+  {
+    "id": 92,
+    "name": "Tennis Ball 2",
+    "price": 12903,
+    "category": "Sports",
+    "stock": 73
+  },
+  {
+    "id": 93,
+    "name": "Gym Gloves 1",
+    "price": 13040,
+    "category": "Sports",
+    "stock": 80
+  },
+  {
+    "id": 94,
+    "name": "Gym Gloves 2",
+    "price": 13177,
+    "category": "Sports",
+    "stock": 87
+  },
+  {
+    "id": 95,
+    "name": "Dumbbell 1",
+    "price": 13314,
+    "category": "Sports",
+    "stock": 94
+  },
+  {
+    "id": 96,
+    "name": "Dumbbell 2",
+    "price": 13451,
+    "category": "Sports",
+    "stock": 5
+  },
+  {
+    "id": 97,
+    "name": "Sports Bottle 1",
+    "price": 13588,
+    "category": "Sports",
+    "stock": 12
+  },
+  {
+    "id": 98,
+    "name": "Sports Bottle 2",
+    "price": 13725,
+    "category": "Sports",
+    "stock": 19
+  },
+  {
+    "id": 99,
+    "name": "Running Belt 1",
+    "price": 13862,
+    "category": "Sports",
+    "stock": 26
+  },
+  {
+    "id": 100,
+    "name": "Running Belt 2",
+    "price": 13999,
+    "category": "Sports",
+    "stock": 33
+  }
+]

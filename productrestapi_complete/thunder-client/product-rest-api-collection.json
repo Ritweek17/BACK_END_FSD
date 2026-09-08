@@ -1,0 +1,52 @@
+{
+  "clientName": "Thunder Client",
+  "collectionName": "Product REST API",
+  "collectionId": "product-rest-api-local",
+  "requests": [
+    {
+      "name": "GET - All Products",
+      "method": "GET",
+      "url": "http://localhost:8000/products"
+    },
+    {
+      "name": "GET - Product By ID",
+      "method": "GET",
+      "url": "http://localhost:8000/products/1"
+    },
+    {
+      "name": "POST - Create Product",
+      "method": "POST",
+      "url": "http://localhost:8000/products",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"name\": \"Smart Watch X\",\n  \"price\": 3999,\n  \"category\": \"Wearables\",\n  \"stock\": 25\n}"
+      }
+    },
+    {
+      "name": "PUT - Update Product",
+      "method": "PUT",
+      "url": "http://localhost:8000/products/1",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"name\": \"Updated Laptop\",\n  \"price\": 65000,\n  \"category\": \"Electronics\",\n  \"stock\": 15\n}"
+      }
+    },
+    {
+      "name": "DELETE - Delete Product",
+      "method": "DELETE",
+      "url": "http://localhost:8000/products/1"
+    }
+  ]
+}

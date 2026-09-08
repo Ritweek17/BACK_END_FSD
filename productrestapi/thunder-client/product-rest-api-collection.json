@@ -1,0 +1,44 @@
+{
+  "clientName": "Thunder Client",
+  "collectionName": "Product REST API",
+  "dateExported": "2026-09-08T00:00:00.000Z",
+  "version": "1.2",
+  "folders": [],
+  "requests": [
+    {
+      "name": "GET - All Products",
+      "method": "GET",
+      "url": "http://localhost:8000/products",
+      "headers": [],
+      "body": {"type": "text", "raw": ""}
+    },
+    {
+      "name": "GET - Single Product",
+      "method": "GET",
+      "url": "http://localhost:8000/products/1",
+      "headers": [],
+      "body": {"type": "text", "raw": ""}
+    },
+    {
+      "name": "POST - Create Product",
+      "method": "POST",
+      "url": "http://localhost:8000/products",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {"type": "json", "raw": "{\n  \"name\": \"Smart Watch\",\n  \"price\": 3999,\n  \"category\": \"Wearables\",\n  \"stock\": 25\n}"}
+    },
+    {
+      "name": "PUT - Update Product",
+      "method": "PUT",
+      "url": "http://localhost:8000/products/1",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {"type": "json", "raw": "{\n  \"name\": \"Updated Laptop\",\n  \"price\": 65000,\n  \"category\": \"Electronics\",\n  \"stock\": 12\n}"}
+    },
+    {
+      "name": "DELETE - Delete Product",
+      "method": "DELETE",
+      "url": "http://localhost:8000/products/1",
+      "headers": [],
+      "body": {"type": "text", "raw": ""}
+    }
+  ]
+}
