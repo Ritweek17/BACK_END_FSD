@@ -1,0 +1,21 @@
+[
+  {
+    "id": "1711000000001",
+    "studentName": "Aarav Sharma",
+    "email": "aarav.sharma@campus.edu",
+    "category": "IT & Wi-Fi",
+    "problemDescription": "Unable to connect to the campus Wi-Fi in Block C Library.",
+    "priority": "High",
+    "createdAt": "2026-03-20T10:15:00.000Z",
+    "updatedAt": "2026-09-22T06:06:44.940Z"
+  },
+  {
+    "id": "1711000000002",
+    "studentName": "Priya Patel",
+    "email": "priya.p@campus.edu",
+    "category": "Hostel",
+    "problemDescription": "Hot water supply in Girl's Hostel Room 204 is not working for the last 2 days.",
+    "priority": "Urgent",
+    "createdAt": "2026-03-21T08:30:00.000Z"
+  }
+]
