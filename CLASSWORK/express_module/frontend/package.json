@@ -1,0 +1,10 @@
+{
+  "name": "frontend-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix express_module run dev",
+    "build": "npm --prefix express_module run build",
+    "preview": "npm --prefix express_module run preview"
+  }
+}

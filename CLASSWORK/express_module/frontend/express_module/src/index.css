@@ -1,0 +1,101 @@
+:root {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Refined Light Palette (Linear / Vercel style) */
+  --bg-app: #fafafa;
+  --bg-surface: #ffffff;
+  --bg-surface-hover: #f4f4f5;
+  --bg-subtle: #f4f4f5;
+  --border-hairline: #e4e4e7;
+  --border-subtle: #d4d4d8;
+  --border-focus: #18181b;
+
+  --text-primary: #09090b;
+  --text-secondary: #71717a;
+  --text-tertiary: #a1a1aa;
+
+  --badge-pdf-bg: #fef2f2;
+  --badge-pdf-text: #991b1b;
+  --badge-pdf-border: #fecaca;
+
+  --badge-doc-bg: #eff6ff;
+  --badge-doc-text: #1e40af;
+  --badge-doc-border: #bfdbfe;
+
+  --badge-pages-bg: #fffbeb;
+  --badge-pages-text: #92400e;
+  --badge-pages-border: #fde68a;
+
+  --badge-generic-bg: #f4f4f5;
+  --badge-generic-text: #52525b;
+  --badge-generic-border: #e4e4e7;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Refined Dark Palette (Raycast / Linear style) */
+    --bg-app: #09090b;
+    --bg-surface: #121214;
+    --bg-surface-hover: #1c1c1f;
+    --bg-subtle: #18181b;
+    --border-hairline: #27272a;
+    --border-subtle: #3f3f46;
+    --border-focus: #f4f4f5;
+
+    --text-primary: #f4f4f5;
+    --text-secondary: #a1a1aa;
+    --text-tertiary: #71717a;
+
+    --badge-pdf-bg: rgba(239, 68, 68, 0.12);
+    --badge-pdf-text: #f87171;
+    --badge-pdf-border: rgba(239, 68, 68, 0.25);
+
+    --badge-doc-bg: rgba(59, 130, 246, 0.12);
+    --badge-doc-text: #60a5fa;
+    --badge-doc-border: rgba(59, 130, 246, 0.25);
+
+    --badge-pages-bg: rgba(245, 158, 11, 0.12);
+    --badge-pages-text: #fbbf24;
+    --badge-pages-border: rgba(245, 158, 11, 0.25);
+
+    --badge-generic-bg: #27272a;
+    --badge-generic-text: #d4d4d8;
+    --badge-generic-border: #3f3f46;
+
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 4px 12px 0 rgba(0, 0, 0, 0.5);
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-family: inherit;
+}
