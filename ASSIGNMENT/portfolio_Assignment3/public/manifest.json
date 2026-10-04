@@ -1,0 +1,16 @@
+{
+  "name": "Ritweek Dubey Portfolio",
+  "short_name": "Ritweek Dubey",
+  "description": "Full Stack Developer Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08121C",
+  "theme_color": "#f97316",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

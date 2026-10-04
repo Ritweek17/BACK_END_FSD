@@ -1,0 +1,54 @@
+<nav id="navbar" class="fixed top-0 left-0 w-full z-[999] flex items-center justify-between px-6 md:px-10 transition-all duration-300 py-6 bg-[#08121C]/30 backdrop-blur-md border-b border-white/5 shadow-none" style="transform: translateY(0); opacity: 1;">
+  <!-- Logo -->
+  <a href="#home" id="nav-logo" class="text-2xl md:text-3xl font-extrabold tracking-widest cursor-pointer text-white transition-all duration-300 hover:scale-105 active:scale-95">
+    RITWEEK<span class="text-orange-500">.</span>
+  </a>
+
+  <!-- Desktop Nav Links -->
+  <ul class="hidden md:flex gap-10">
+    <% const navItems = [
+      { id: "home", label: "Home" },
+      { id: "about", label: "About" },
+      { id: "tech", label: "Tech Stack" },
+      { id: "projects", label: "Projects" },
+      { id: "coding", label: "Coding" },
+      { id: "certifications", label: "Certifications" },
+      { id: "contact", label: "Contact" }
+    ]; %>
+    <% navItems.forEach(item => { %>
+      <li>
+        <a href="#<%= item.id %>" class="nav-link group relative py-1 text-sm font-semibold transition-colors duration-300 inline-block text-gray-400 hover:text-orange-500 hover:-translate-y-1 hover:scale-105 active:scale-95" data-section="<%= item.id %>">
+          <%= item.label %>
+          <span class="nav-underline absolute bottom-0 left-0 h-[2px] bg-orange-500 transition-all duration-300 w-0 group-hover:w-full group-hover:shadow-[0_0_4px_#f97316]"></span>
+        </a>
+      </li>
+    <% }) %>
+  </ul>
+
+  <!-- Right Side -->
+  <div class="flex items-center gap-4">
+    <!-- Resume Button Desktop -->
+    <a href="/resume.pdf" download class="hidden md:block border border-orange-500 px-5 py-2 rounded-xl text-orange-500 font-medium hover:bg-orange-500 hover:text-white transition-all duration-300 shadow-md hover:shadow-orange-500/30 hover:scale-105 active:scale-95">
+      Resume
+    </a>
+
+    <!-- Hamburger Button -->
+    <button id="mobile-menu-btn" class="md:hidden text-white cursor-pointer">
+      <i class="fa-solid fa-bars text-3xl"></i>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="absolute top-full left-0 w-full bg-[#08121C]/95 backdrop-blur-xl border-b border-white/10 flex flex-col items-center gap-8 py-8 md:hidden transition-all duration-300 opacity-0 -translate-y-5 pointer-events-none">
+    <% navItems.forEach(item => { %>
+      <a href="#<%= item.id %>" class="mobile-nav-link text-lg font-semibold transition-all duration-300 relative text-gray-400 hover:text-orange-500 hover:-translate-y-[2px] hover:scale-105 active:scale-95" data-section="<%= item.id %>">
+        <%= item.label %>
+        <span class="mobile-nav-underline absolute -bottom-1 left-1/2 -translate-x-1/2 w-4 h-[2px] bg-orange-500 rounded-full shadow-[0_0_6px_#f97316] hidden"></span>
+      </a>
+    <% }) %>
+
+    <a href="/resume.pdf" download class="border border-orange-500 px-5 py-2 rounded-xl text-orange-500 font-medium hover:bg-orange-500 hover:text-white transition-all duration-300 active:scale-95">
+      Resume
+    </a>
+  </div>
+</nav>
