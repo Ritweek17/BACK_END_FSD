@@ -1,0 +1,99 @@
+EXPERIMENT 7 & 8 - MONGODB TERMINAL OUTPUT
+==========================================
+
+The transcript below is sample mongosh output for the commands shown.
+Run the commands in your MongoDB Shell to obtain your own live output.
+
+
+test> use studentDB
+switched to db studentDB
+
+studentDB> db.createCollection("students")
+{ ok: 1 }
+
+studentDB> show collections
+students
+
+
+studentDB> db.students.insertMany([
+...   { _id: 1, name: "Aarav Sharma", age: 19, course: "CSE", city: "Delhi" },
+...   { _id: 2, name: "Riya Verma", age: 21, course: "IT", city: "Noida" },
+...   { _id: 3, name: "Karan Singh", age: 22, course: "CSE", city: "Ghaziabad" },
+...   { _id: 4, name: "Sneha Gupta", age: 20, course: "ECE", city: "Delhi" },
+...   { _id: 5, name: "Rahul Mishra", age: 23, course: "ME", city: "Lucknow" },
+...   { _id: 6, name: "Ananya Das", age: 24, course: "CSE", city: "Kolkata" },
+...   { _id: 7, name: "Vikram Yadav", age: 18, course: "IT", city: "Meerut" },
+...   { _id: 8, name: "Pooja Jain", age: 22, course: "ECE", city: "Jaipur" },
+...   { _id: 9, name: "Aditya Rao", age: 25, course: "CSE", city: "Pune" },
+...   { _id: 10, name: "Meera Nair", age: 20, course: "IT", city: "Kochi" }
+... ])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': 1,
+    '1': 2,
+    '2': 3,
+    '3': 4,
+    '4': 5,
+    '5': 6,
+    '6': 7,
+    '7': 8,
+    '8': 9,
+    '9': 10
+  }
+}
+
+
+studentDB> db.students.find({ age: { $gt: 20 } }).pretty()
+[
+  { _id: 2, name: 'Riya Verma', age: 21, course: 'IT', city: 'Noida' },
+  { _id: 3, name: 'Karan Singh', age: 22, course: 'CSE', city: 'Ghaziabad' },
+  { _id: 5, name: 'Rahul Mishra', age: 23, course: 'ME', city: 'Lucknow' },
+  { _id: 6, name: 'Ananya Das', age: 24, course: 'CSE', city: 'Kolkata' },
+  { _id: 8, name: 'Pooja Jain', age: 22, course: 'ECE', city: 'Jaipur' },
+  { _id: 9, name: 'Aditya Rao', age: 25, course: 'CSE', city: 'Pune' }
+]
+
+
+studentDB> db.students.updateOne(
+...   { _id: 1 },
+...   { $set: { age: 20 } }
+... )
+{
+  acknowledged: true,
+  matchedCount: 1,
+  modifiedCount: 1
+}
+
+studentDB> db.students.findOne({ _id: 1 })
+{
+  _id: 1,
+  name: 'Aarav Sharma',
+  age: 20,
+  course: 'CSE',
+  city: 'Delhi'
+}
+
+
+studentDB> db.students.deleteOne({ _id: 7 })
+{ acknowledged: true, deletedCount: 1 }
+
+studentDB> db.students.find().pretty()
+[
+  { _id: 1, name: 'Aarav Sharma', age: 20, course: 'CSE', city: 'Delhi' },
+  { _id: 2, name: 'Riya Verma', age: 21, course: 'IT', city: 'Noida' },
+  { _id: 3, name: 'Karan Singh', age: 22, course: 'CSE', city: 'Ghaziabad' },
+  { _id: 4, name: 'Sneha Gupta', age: 20, course: 'ECE', city: 'Delhi' },
+  { _id: 5, name: 'Rahul Mishra', age: 23, course: 'ME', city: 'Lucknow' },
+  { _id: 6, name: 'Ananya Das', age: 24, course: 'CSE', city: 'Kolkata' },
+  { _id: 8, name: 'Pooja Jain', age: 22, course: 'ECE', city: 'Jaipur' },
+  { _id: 9, name: 'Aditya Rao', age: 25, course: 'CSE', city: 'Pune' },
+  { _id: 10, name: 'Meera Nair', age: 20, course: 'IT', city: 'Kochi' }
+]
+
+
+studentDB> db.students.countDocuments()
+9
+
+studentDB> db.students.countDocuments({ age: { $gt: 20 } })
+6
